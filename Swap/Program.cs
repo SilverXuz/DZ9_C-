@@ -4,9 +4,10 @@
 */
 
 
+// Не смог решить проблемы с желтыми ошибками
+
 Console.Write("Введите символы, буквы английского алфавита или цифры(от 1 до 8 знаков): ");
 string word = Convert.ToString(Console.ReadLine());
-int n = 1;
 void FindWords(string alphabet, char[] word, int length = 0)
 {
     if (length == word.Length)
